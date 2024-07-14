@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"name": "html final assessment",
+			"path": "."
+		},
+		{
+			"name": "src",
+			"path": "../OneDrive/Desktop/html/src"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "html final assessment",
+		"liveServer.settings.port": 5501
+	}
+}

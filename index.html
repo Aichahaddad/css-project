@@ -1,29 +1,99 @@
 <!DOCTYPE html>
-<html lang="en">
-<header class="header"
+<html lang="fr">
+<head>
+    <link rel="stylesheet" href="styles.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><button>Cliquez-moi</button>TEST CSS</title>
+    <title>Portfolio de Aicha Haddad</title>
+    <link rel="icon" href="./src/portfolio582x1528437083075604181.jpg" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
+    <style>
+        
+    </style>
 </head>
 <body>
-  
-    
-<h1>Test CSS</h1>
 
-<div class="test"></div>
-<div class="test"></div>
+<header>
+    <h1>Portfolio de Aicha Haddad</h1>
+</header>
 
+<nav>
+    <ul>
+        <li><a href="#home">Accueil</a></li>
+        <li><a href="#about">À propos</a></li>
+        <li><a href="#work">Travaux</a></li>
+        <li><a href="#resume">CV</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
 
+<section id="home">
+    <h2>Accueil</h2>
+    <p>Bienvenue sur mon portfolio ! Je m'appelle Aicha Haddad, j'ai 17 ans et je suis passionnée par le développement web.</p>
+    <img src="./src/3D2BF1F4-66E8-494D-BA4C-8A9BE2AE1498.JPG" width="500">
+</section>
 
+<section id="about">
+    <h2>À propos</h2>
+    <p>Je suis née au Maroc et je suis actuellement lycéenne. L'année prochaine, je serai en terminale. J'aime les études et je voudrais devenir ingénieure en data science. En dehors des études, je joue au basket et je fais du surf. J'aime aussi lire des romans et écrire parfois.</p>
+    <div class="galery" >
+    <img src="./src/basket.jpeg" alt="basket ball photo" width="300">
+    <img src="./src/surf.avif" alt="surf photo" width="300" height="200">
+    <img src="./src/téléchargement.jpeg" alt="wattpad" width="300">
+   </div>
+</section>
 
+<section id="work">
+    <h2>Travaux</h2>
+    <p>Voici quelques exemples de mes travaux:</p>
+    <ul>
+        <li><a href="src/backmarket.webp" target="_blank"> projet 1</a></li>
+        <li><a href="src/0784b1_cc135e0a271842c29cbe40bb8d47d56b~mv2.jpg" target="_blank">Projet 2</a> </li>
+        <li><a href="src/Amazon.png" target="_blank">projet 3</a></li>
+    </ul>
+</section>
 
+<section id="resume">
+    <h2>CV</h2>
+    <p>Mon parcours scolaire et mes expériences :</p>
+    <table border="1" cellpadding="5" cellspacing="0">
+        <tr>
+            <th>Année</th>
+            <th>École/Entreprise</th>
+            <th>Description</th>
+        </tr>
+        <tr>
+            <td>2023</td>
+            <td>Lycée scientifique hassan </td>
+            <td>première année de bac SCM</td>
+        </tr>
+        <tr>
+            <td>2024</td>
+            <td>Cours d'été chez GoMyCode</td>
+            <td>Développeur web junior</td>
+        </tr>
+    </table>
+</section>
 
+<section id="contact">
+    <h2>Contact</h2>
+    <form>
+        <label for="name">Nom :</label>
+        <input type="text" id="name" name="name" required>
 
+        <label for="email">Email :</label>
+        <input type="email" id="email" name="email" required>
 
+        <label for="message">Message :</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
 
+        <input type="submit" value="Submit">
+    </form>
+</section>
 
+<footer>
+    <p>&copy; 2024 Aicha Haddad. Tous droits réservés.</p>
+</footer>
 
-    <script src="./script.js"></script>
 </body>
 </html>
